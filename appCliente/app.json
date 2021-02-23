@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "HelpPe",
+    "slug": "HelpPe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "sos.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "sos.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "HelpPe.com"
+    },
+    "web": {
+      "favicon": "sos.png"
+    }
+  }
+}
