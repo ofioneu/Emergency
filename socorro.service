@@ -1,0 +1,11 @@
+[Unit]
+Description=Botao de Emergencia
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=python3 /home/pi/Desktop/Dev/sos.py
+[Install]
+WantedBy=multi-user.target
